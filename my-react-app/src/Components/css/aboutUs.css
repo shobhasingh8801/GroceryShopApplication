@@ -1,0 +1,32 @@
+.head{
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;    
+    /* background-color: #4d94ff; */
+    padding: 10px;
+    color: #4d94ff;
+}
+
+.about{
+    background-color: #cce5ff;
+    width:70%;
+    margin-left: 15%;
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    margin-top: 110px;
+}
+
+.para{
+    width: 70%;
+    margin-left: 15%;
+    font-family: cursive;
+    padding: 10px;
+    font-size: large;
+    text-align: justify;
+}
+
+.para h2{
+    font-size: larger;
+    padding-top: 5px;
+    text-align: left;
+}

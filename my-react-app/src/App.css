@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+
+.loginbtn{
+  width: 83%;
+  height: 34px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid transparent;
+  background-color: #13a4cc;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.productsContainer{
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  justify-content: space-evenly;
+}
+
+.productCard{
+  width: 240px;
+  height: 280px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 20px;
+}

@@ -1,0 +1,77 @@
+.product-template{
+    background-color: white;
+    display: grid;
+    text-align: left;
+    /* padding: 10px;  */
+    position: relative;
+}
+.product-template img{
+    height: 150px;
+    width : 180px;
+
+}
+.product-content{
+    padding: 5px;
+}
+.product-template  button{
+    border: none;
+    padding: 8px;
+    font-size: 12px;
+    width: auto;
+    margin-top: 0px;
+}
+.product-template .button-grid{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    place-items: left; 
+    margin: 0px; 
+}
+
+.add-btn-grid{
+    display: grid;
+    grid-template-columns: 20px 25px 20px;
+    padding: 0px;
+    background-color: #F0F0F0;
+    text-align: center;
+    border-radius: 10px;
+    width: 60px;
+}
+
+.add-btn-grid.blue-style {
+    background-color: #007bff;  /* Change entire grid background to blue */
+    color: white;  
+}
+
+.add-btn-grid.blue-style button {
+    background-color: #007bff;  /* Change button background to blue */
+    color: white;  
+}
+
+.product-template .cursor{
+    cursor: pointer;
+}
+.add-btn-grid > .add{
+    width: 65px;
+    text-align: center;
+} 
+
+.update{
+    position: absolute;
+    top:0;
+    left:5px;
+    color:#F0F0F0;
+}
+.update:hover{
+    color: green;
+    cursor: pointer;
+}
+.delete{
+    position: absolute;
+    top:0;
+    right: 5px;
+    color:#F0F0F0;
+}
+.delete:hover{
+    color: red;
+    cursor: pointer;
+}

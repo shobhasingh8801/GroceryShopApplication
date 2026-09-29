@@ -1,0 +1,68 @@
+.navbar {
+    padding: 0px;
+    display: grid;
+    grid-template-columns: auto auto;
+    color: white;
+    text-align: left;
+    background: linear-gradient(to bottom, #cce5ff 0%, #ffffff 100%)
+}
+
+.Head-fix {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar>div {
+    margin: 15px 10px 15px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.categories {
+    font-family:cursive;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    font-size: 15px;
+    padding: 5px 150px 5px 150px;
+    background-color: white;
+    z-index: 9;
+}
+
+.categories div:hover {
+    cursor: pointer;
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+
+.categories a {
+    color: #666666;
+    font-size: 14px;
+}
+
+.category-link {
+  text-decoration: none;
+  color: #333;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.category-link.active::after {
+  content: "";
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #007bff;
+}
+
+.category-link:hover{
+    color: #007bff;
+}

@@ -1,0 +1,24 @@
+.footer{
+    /* text-align: center; */
+    background-color: black;
+    color:white;
+    display: grid;
+    grid-template-columns: 25% 24% 24% 24%; 
+    margin-top: 30px;  
+}
+
+.hover1 p:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.footer a{
+    text-decoration: none;  
+    color: white;
+}
+
+.about1{
+   text-align: justify; 
+   padding-left: 30px;
+   font-family: cursive;
+}

@@ -1,0 +1,16 @@
+.icon-hover {
+  transition: transform 0.3s ease;
+}
+
+.dummyProduct-template{
+    background-color: white;
+    display: grid;
+    text-align: left;
+    padding: "10px"; 
+    position: relative;
+}
+
+.icon-hover:hover {
+  transform: scale(1.5);
+  transform: translateX(8px); 
+}
